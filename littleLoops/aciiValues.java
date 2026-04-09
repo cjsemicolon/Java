@@ -1,7 +1,7 @@
 public class asciiValues {
     public static void main(String[] args) {
 
-        for (char character = 'a'; character <= 'z'; character++) {
+        for (char character = 'A'; character <= 'Z'; character++) {
             System.out.println(character + " = " + (int) character);
         }
     }
