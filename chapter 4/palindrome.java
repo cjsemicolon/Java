@@ -6,7 +6,7 @@ public class palindrome {
 
         int number = inputCollector.nextInt();
 
-        while (num < 10000 || num > 99999) {
+        while (number < 10000 || number > 99999) {
             System.out.println("Invalid");
             number = inputCollector.nextInt();
         }
