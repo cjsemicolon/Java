@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class factorial {
     public static void main(String[] args) {
         Scanner inputCollector = new Scanner(System.in);
-
+        
+        System.out.println("Enter number");
         int number= inputCollector.nextInt();
         int factorial = 1;
 
